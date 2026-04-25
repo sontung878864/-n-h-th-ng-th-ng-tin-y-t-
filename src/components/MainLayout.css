@@ -1,0 +1,48 @@
+.app-layout {
+     display: flex; min-height: 100vh;  } 
+.sidebar {  
+width: 260px;  
+background: #2c3e50; 
+color: white;  
+position: fixed;  
+height: 100%;  
+} 
+.main-area {  
+margin-left: 260px;  
+flex: 1;  
+display: flex;  
+flex-direction: column;  
+background: #f8f9fa; 
+} 
+.banner {  
+    background: #3498db;  
+    color: white;  
+    padding: 10px 20px;  
+    font-weight: bold;  
+    text-align: center;  
+} 
+.header {  
+    background: white;  
+    padding: 15px 30px;  
+    display: flex;  
+    justify-content: space-between;  
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);  
+} 
+.content { padding: 30px; flex: 1; } 
+.footer {  
+    background: white;  
+    padding: 15px;  
+    text-align: center;  
+    border-top: 1px solid #ddd;  
+} 
+.menu-item {  
+    display: block;  
+    padding: 15px 20px;  
+    color: #ecf0f1;  
+    text-decoration: none;  
+    border-left: 4px solid transparent;  
+} 
+.menu-item.active {  
+    background: #34495e;  
+    border-left-color: #3498db;  
+} 
